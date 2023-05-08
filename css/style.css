@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h4 {
+    font-family: helvetica-w01-roman, helvetica-w02-roman, helvetica-lt-w10-roman, sans-serif;
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 1.7em;
+    font: normal normal normal 18px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+}
+
+h1 {
+    color: white; 
+    letter-spacing: normal;
+    line-height: normal;
+    font: normal normal normal 150px/1.4em dinneuzeitgroteskltw01-_812426, sans-serif;
+    font-family: open sans condensed, sans-serif;
+}
+
+
+@media(max-width:1200px) {
+    h1 {
+        font-size: 130px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:910px) {
+    h1 {
+        font-size: 100px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:716px) {
+    h1 {
+        font-size: 81px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:456px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:376px) {
+    h1 {
+        font-size: 53px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+}
